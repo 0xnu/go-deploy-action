@@ -5,7 +5,7 @@ LABEL "maintainer"="Finbarrs Oketunji <oketunjifinbarrs@hotmail.com>"
 LABEL "version"="0.3.0"
 
 LABEL "com.github.actions.name"="GO Deploy Action"
-LABEL "com.github.actions.description"="Deploy Action for Cross-complile Go programs"
+LABEL "com.github.actions.description"="Go project binaries for multiple platforms with GitHub Action."
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="#E0EBF5"
 
@@ -17,4 +17,4 @@ RUN \
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["chmod +x ./entrypoint.sh"]
