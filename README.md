@@ -71,6 +71,7 @@ drwxr-xr-x 5 root root    4096 Dec  20 00:02 ..
 -rw-r--r-- 1 root root  930942 Dec  20 00:03 test-go-action_windows_386.zip
 -rwxr-xr-x 1 root root 1957376 Dec  20 00:02 test-go-action_windows_amd64
 -rw-r--r-- 1 root root  972286 Dec  20 00:02 test-go-action_windows_amd64.zip
+```
 
 ## Authors
 
