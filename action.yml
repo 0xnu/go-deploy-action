@@ -1,0 +1,8 @@
+name: GO GitHub Action Deployment
+description: 'Go project binaries for multiple platforms with GitHub Action.'
+branding: 
+  icon: 'package'
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
